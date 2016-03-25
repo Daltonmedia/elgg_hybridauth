@@ -112,6 +112,8 @@ $english = array(
 	'hybridauth:provider:user:authenticated' => 'You have successfully linked your acount to this provider',
 	'hybridauth:provider:user:deauthorized' => 'You have successfully unlinked your acount from this provider',
 	'hybridauth:provider:user:deauthorized:error' => 'Your acount could not be disconnected from this provider',
+    'hybridauth:facebook:user:remote_deauthorized:mail:subject' => 'You deauthorized your facebook account',
+    'hybridauth:facebook:user:remote_deauthorized:mail:body' => 'You successfuly unlink your facebook account. Please note that you cannnot use the Facebook functionalities anymore untill you reauthorize again',
 	
 	'hybridauth:registration_instructions' => "Registration instructions",
 	'hybridauth:registration_instructions:help' => "Any instructions or information you need to relay to users after they have authenticated with an external provider but before they complete their registration",

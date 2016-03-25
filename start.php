@@ -91,6 +91,10 @@ function elgg_hybridauth_page_handler($segments, $identifier) {
 			set_input('username', $segments[1]);
 			echo elgg_view('resources/hybridauth/accounts');
 			return true;
+        
+        case 'facebookdeauth' :
+			echo elgg_view('resources/hybridauth/facebookdeauth');
+			return true;
 	}
 
 	return false;
